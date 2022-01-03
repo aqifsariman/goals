@@ -1,0 +1,90 @@
+body {
+  background-image: url("https://wallpaperaccess.com/full/765801.jpg");
+  background-color: white;
+  font-family: monospace;
+  color: black;
+}
+
+.top-container {
+  margin-top: 55px;
+  display: inline-flex;
+  width: 100%;
+  align-items: center;
+  border-block: 1px solid;
+}
+
+#toptext {
+  display: flex;
+  text-align: left;
+  font-family: manrope;
+  font-size: 200%;
+  justify-content: center;
+  width: 26%;
+  height: 3%;
+  margin: 0% -3% 0% -4%;
+}
+
+#burger {
+  width: 3%;
+  height: 3%;
+}
+
+.categories {
+  display: flex;
+  font-weight: bolder;
+  font-size: 155%;
+  font-family: monospace;
+  margin-left: 10%;
+}
+
+.items {
+  margin: 1%;
+}
+
+#mid-achievements {
+  font-size: 500%;
+  text-align: center;
+  font-family: manrope;
+}
+
+.wrapped {
+  display: inline-flex;
+  flex-wrap: wrap;
+  width: 20vw;
+  margin: 5px;
+  height: auto;
+}
+
+.center {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.grid {
+  display: inline-grid;
+}
+
+.left {
+  display: flex;
+  font-size: 15px;
+  font-family: sans-serif;
+}
+
+ul {
+  font-family: cursive;
+}
+
+audio {
+  margin: 0px auto;
+  width: 20%;
+  display: flex;
+}
+
+img {
+}
