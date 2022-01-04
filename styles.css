@@ -6,6 +6,7 @@ body {
 }
 
 .top-container {
+  font-family: "Open Sans Condensed", sans-serif;
   margin-top: 55px;
   display: inline-flex;
   width: 100%;
@@ -17,10 +18,9 @@ body {
   display: flex;
   text-align: left;
   font-family: manrope;
-  font-size: 200%;
+  font-size: 150%;
   justify-content: center;
-  width: 26%;
-  height: 3%;
+  width: 35%;
   margin: 0% -3% 0% -4%;
 }
 
@@ -42,15 +42,16 @@ body {
 }
 
 #mid-achievements {
+  color: solid black;
   font-size: 500%;
   text-align: center;
-  font-family: manrope;
+  font-family: "Teko", sans-serif;
 }
 
 .wrapped {
   display: inline-flex;
   flex-wrap: wrap;
-  width: 20vw;
+  width: 45vw;
   margin: 5px;
   height: auto;
 }
@@ -84,7 +85,4 @@ audio {
   margin: 0px auto;
   width: 20%;
   display: flex;
-}
-
-img {
 }
